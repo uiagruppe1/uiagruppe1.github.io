@@ -1,0 +1,13 @@
+.card {
+    max-width: 270px;
+}
+
+.linkedInBtn {
+    color: #0077B5;
+    font-size: 30px;
+}
+
+.linkedInBtn:hover {
+    color: #00507a;
+    font-size: 30px;
+}

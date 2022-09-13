@@ -1,5 +1,5 @@
 .card {
-    max-width: 270px;
+    max-width: 1040px;
 }
 
 .linkedInBtn {
@@ -11,3 +11,13 @@
     color: #00507a;
     font-size: 30px;
 }
+
+@media (max-width: 767.98px) { 
+    .img-fluid {
+        width: 70%;
+    }
+
+    .profileImg {
+        text-align: center;
+    }
+ }

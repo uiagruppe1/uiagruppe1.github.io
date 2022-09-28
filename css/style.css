@@ -12,8 +12,20 @@
     color: white;
 }
 
+.gruppeNavbar {
+    font-weight: 600;
+}
+
 .kontaktLink a:hover {
     color: rgb(231, 231, 231);
+}
+
+.tech img {
+    height: 25px;
+}
+
+.tech i {
+    font-size: 25px;
 }
 
 .card {

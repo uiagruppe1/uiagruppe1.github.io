@@ -23,6 +23,8 @@
 .tech img {
     height: 25px;
     margin: 5px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 .tech i {

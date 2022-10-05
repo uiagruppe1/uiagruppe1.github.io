@@ -1,3 +1,6 @@
+html { scroll-padding-top: 76px; }
+
+/* navbar */
 
 .kontaktLink {
     background-color: #0077B5;
@@ -5,7 +8,7 @@
 }
 
 .kontaktLink a {
-    color: white;
+    color: white!important;
 }
 
 .kontaktLink a:hover {
@@ -25,7 +28,7 @@
     max-height: 50px;
 }
 
-/*technologies*/
+/* technologies */
 
 .tech .nav .nav-link {
     color: black!important;
@@ -55,7 +58,7 @@
     margin: 5px;
 }
 
-/*persons*/
+/* persons */
 
 .card {
     max-width: 1040px;
@@ -72,7 +75,6 @@
 }
 
 
-
 @media (max-width: 767.98px) { 
     .img-fluid {
         width: 70%;
@@ -86,6 +88,8 @@
     .profileImg {
         text-align: center;
     }
+
+    /* technologies */
 
     #nav-tab {
         flex-flow: nowrap;

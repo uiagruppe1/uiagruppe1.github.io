@@ -75,6 +75,11 @@ html { scroll-padding-top: 76px; }
     font-size: 30px;
 }
 
+/* card */
+.profileImg {
+    padding-left: 200px;
+}
+
 /* contact */
 
 .contactUs {

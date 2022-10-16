@@ -28,6 +28,7 @@ html { scroll-padding-top: 76px; }
     max-height: 50px;
 }
 
+
 /* technologies */
 
 .tech .nav .nav-link {
@@ -73,6 +74,40 @@ html { scroll-padding-top: 76px; }
     color: #00507a;
     font-size: 30px;
 }
+
+/* contact */
+
+.contactUs {
+    text-align: center;
+}
+
+.contactInfo {
+    font-style: italic;
+}
+
+/* footer */
+.footer {
+    text-align: right;
+    font-style: italic;
+    color: #FFFFFF;
+    background-color: #252525;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 
 
 @media (max-width: 767.98px) { 

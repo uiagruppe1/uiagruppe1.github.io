@@ -1,3 +1,65 @@
+html { scroll-padding-top: 76px; }
+
+/* navbar */
+
+.kontaktLink {
+    background-color: #0077B5;
+    border-radius: 5px;
+}
+
+.kontaktLink a {
+    color: white!important;
+}
+
+.kontaktLink a:hover {
+    color: rgb(231, 231, 231);
+}
+
+.navbar-nav a {
+    font-size: 17px;
+    color: black;
+}
+
+.gruppeNavbar {
+    font-weight: 600;
+}
+
+.gruppeNavbar img {
+    max-height: 50px;
+}
+
+/* technologies */
+
+.tech .nav .nav-link {
+    color: black!important;
+}
+
+.tech .nav .nav-link.active {
+    background-color: rgb(236, 236, 236)!important;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0!important;
+}
+
+#nav-tabContent {
+    border-bottom: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.tech img {
+    height: 25px;
+    margin: 5px;
+}
+
+.tech i {
+    font-size: 25px;
+    margin: 5px;
+}
+
+/* persons */
+
 .card {
     max-width: 1040px;
 }
@@ -12,13 +74,26 @@
     font-size: 30px;
 }
 
+
 @media (max-width: 767.98px) { 
     .img-fluid {
         width: 70%;
         max-width: 400px!important;
     }
 
+    .gruppeNavbar img {
+        max-height: 40px;
+    }
+
     .profileImg {
         text-align: center;
     }
+
+    /* technologies */
+
+    #nav-tab {
+        flex-flow: nowrap;
+        overflow: auto;
+    }
+
  }

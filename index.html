@@ -15,15 +15,18 @@
 
   <!-- navbar -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Gruppe 1</a>
+      <a class="navbar-brand gruppeNavbar" href="#"><img src="./img/uiagr1logo.png" class="d-inline-block"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item kontaktLink">
+            <a class="nav-link" href="mailto:uiagruppe1@proton.me" target="_blank">Kontakt oss!</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link " href="#omOss">Om oss</a>
           </li>
@@ -40,13 +43,13 @@
 
   <!-- team text -->
 
-  <div class="px-4 py-3 my-3 text-center">
-    <h1 id="omOss" class="display-5 fw-bold">Om oss</h1>
+  <div class="px-4 pt-3 my-3 text-center">
+    <h2 id="omOss" class="fw-bold">Om oss</h2>
     <div class="col-lg-10 mx-auto">
-      <p class="mb-4">Teamet består av fem engasjerte studenter med stor interesse for teknologi 
+      <p class="mb-4" style="text-align: left;">Teamet består av fem engasjerte studenter med stor interesse for teknologi 
         og innovasjon, som gjennom de siste 2,5 årene har samarbeidet på en rekke prosjekter. Vi jobber effektivt, 
-        med fokus på detaljer og gode resultater. Ambisjonsnivået vårt ligger derfor ganske høyt, og vi er opptatt 
-        av at sluttresultatet oppfyller bedriftens krav og behov i tillegg til å gi oss studenter et godt 
+        med fokus på detaljer og gode resultater. Ambisjonsnivået vårt ligger derfor høyt, og vi er opptatt 
+        av at sluttresultatet oppfyller bedriftens krav og behov, i tillegg til å gi oss studenter et godt 
         læringsutbytte. Vi har en god gruppedynamikk, med bred kompetanse innenfor 
         ulike fagområder. Vi liker derfor å dele oss inn i ulike roller og arbeidsoppgaver tilpasset den enkeltes 
         styrker og interesser. Blant de mange fagområdene teamet har arbeidet med gjennom studiet, kunne vi spesielt 
@@ -55,6 +58,71 @@
       </p>
     </div>
   </div>
+
+  <!--technologies-->
+
+  <div class="text-center pb-5">
+    <div class="col-lg-6 mx-auto">
+      <h4>Teknologier</h4>
+      <div class="tech">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="img/HTML5.png" alt="">HTML</button>
+            <button class="nav-link" id="nav-css-tab" data-bs-toggle="tab" data-bs-target="#nav-css" type="button" role="tab" aria-controls="nav-css" aria-selected="false"><img src="img/CSS3.png" alt="">CSS</button>
+            <button class="nav-link" id="nav-docker-tab" data-bs-toggle="tab" data-bs-target="#nav-docker" type="button" role="tab" aria-controls="nav-docker" aria-selected="false"><img src="img/Moby-logo.png" alt="">Docker</button>
+            <button class="nav-link" id="nav-kubernetes-tab" data-bs-toggle="tab" data-bs-target="#nav-kubernetes" type="button" role="tab" aria-controls="nav-kubernetes" aria-selected="false"><img src="img/Kubernetes.png" alt="">kubernetes</button>
+            <button class="nav-link" id="nav-java-tab" data-bs-toggle="tab" data-bs-target="#nav-java" type="button" role="tab" aria-controls="nav-java" aria-selected="false"><img src="img/java.png" alt="">Java</button>
+            <button class="nav-link" id="nav-dotnet-tab" data-bs-toggle="tab" data-bs-target="#nav-dotnet" type="button" role="tab" aria-controls="nav-dotnet" aria-selected="false"><img src="img/dotnet-logo.png" alt="">.NET</button>
+            <button class="nav-link" id="nav-js-tab" data-bs-toggle="tab" data-bs-target="#nav-js" type="button" role="tab" aria-controls="nav-js" aria-selected="false"><img src="img/javascript.png" alt="">JavaScript</button>
+            <button class="nav-link" id="nav-github-tab" data-bs-toggle="tab" data-bs-target="#nav-github" type="button" role="tab" aria-controls="nav-github" aria-selected="false"><i class="fa-brands fa-github"></i>GitHub</button>
+            <button class="nav-link" id="nav-react-tab" data-bs-toggle="tab" data-bs-target="#nav-react" type="button" role="tab" aria-controls="nav-react" aria-selected="false"><img src="img/react.png" alt="">React</button>
+            <button class="nav-link" id="nav-php-tab" data-bs-toggle="tab" data-bs-target="#nav-php" type="button" role="tab" aria-controls="nav-php" aria-selected="false"><img src="img/PHP.png" alt="">PHP</button>
+            <button class="nav-link" id="nav-database-tab" data-bs-toggle="tab" data-bs-target="#nav-database" type="button" role="tab" aria-controls="nav-database" aria-selected="false"><i class="fa-solid fa-database" style="color: #3b5cc9"></i>SQL</button>
+            <button class="nav-link" id="nav-csharp-tab" data-bs-toggle="tab" data-bs-target="#nav-csharp" type="button" role="tab" aria-controls="nav-csharp" aria-selected="false"><img src="img/csharp.svg" alt="">C#</button>
+            <button class="nav-link" id="nav-threejs-tab" data-bs-toggle="tab" data-bs-target="#nav-threejs" type="button" role="tab" aria-controls="nav-threejs" aria-selected="false"><img src="img/threejslogo.png" alt="">ThreeJS</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">HTML5 har blitt benyttet av alle i gruppa gjennom flere webprosjekter, både gjennom UiA og diverse private prosjekter.</div>
+          <div class="tab-pane fade" id="nav-css" role="tabpanel" aria-labelledby="nav-css-tab" tabindex="0">CSS har blitt brukt aktivt for å style diverse webprosjekter vi har gjennomført, blant annet denne nettsiden.</div>
+          <div class="tab-pane fade" id="nav-docker" role="tabpanel" aria-labelledby="nav-docker-tab" tabindex="0">Webapplikasjonen vi utviklet 2. året kjørte i en Docker container, som gjorde det enkelt for oss å kjøre webapplikasjonen på tvers av operativsystemer, avhengigheter og miljø.</div>
+          <div class="tab-pane fade" id="nav-kubernetes" role="tabpanel" aria-labelledby="nav-kubernetes-tab" tabindex="0">Kubernetes blir brukt som container i en av studentenes praksisprosjekt.</div>
+          <div class="tab-pane fade" id="nav-java" role="tabpanel" aria-labelledby="nav-java-tab" tabindex="0">Java var introduksjonen vår til koding førsteåret, samt at Java og Java Servlets ble brukt for å utvikle en webapplikasjon 2. året</div>
+          <div class="tab-pane fade" id="nav-dotnet" role="tabpanel" aria-labelledby="nav-dotnet-tab" tabindex="0">I praksisprosjektet som gjennomføres av ett av gruppemedlemmene skal det utvikles en webapplikasjon som kjører i .NET.</div>
+          <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab" tabindex="0">Enkelte av studentene har erfaring fra bruk av JavaScript i utvikling av nettsider.</div>
+          <div class="tab-pane fade" id="nav-github" role="tabpanel" aria-labelledby="nav-github-tab" tabindex="0">GitHub har blitt brukt som versjonskontroll- og samarbeidsverktøy i alle kodeprosjekter gruppen har arbeidet på.</div>
+          <div class="tab-pane fade" id="nav-react" role="tabpanel" aria-labelledby="nav-react-tab" tabindex="0">Flere av gruppemelemmene har erfaring fra bruk av React for å lage responsive webapplikasjoner/nettsider.</div>
+          <div class="tab-pane fade" id="nav-php" role="tabpanel" aria-labelledby="nav-php-tab" tabindex="0">Gruppas medlemmer tar valgfag i PHP og skal utvikle en komplett webapplikasjon i dette språket i løpet av høsten</div>
+          <div class="tab-pane fade" id="nav-database" role="tabpanel" aria-labelledby="nav-database-tab" tabindex="0">Alle gruppemeldemmene har tatt universitetsemner om databaser, og har kunnskaper om SQL og PL/SQL. Gruppen har også erfaring med praktisk bruk av SQL i konkrete prosjekter fra studiene.</div>
+          <div class="tab-pane fade" id="nav-csharp" role="tabpanel" aria-labelledby="nav-csharp-tab" tabindex="0">C# blir brukt for å utvikle en webapplikasjon og håndtere kobling mot API'er i .NET for en av studentenes praksisprosjekt.</div>
+          <div class="tab-pane fade" id="nav-threejs" role="tabpanel" aria-labelledby="nav-threejs-tab" tabindex="0">Gruppen var med på et nasjonalt prosjekt for Norkart AS i norske havner, hvor ThreeJS ble tatt i bruk for å ha 3D modeller i en webapplikasjon.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="text-center pb-5">
+    <div class="col-lg-8 mx-auto">
+      <h4>Teknologier</h4>
+      <div class="tech">
+        <div class="row">        
+        <button class="col btn btn-secondary"><i class="fa-brands fa-html5"></i>HTML</button>
+        <p class="col"><i class="fa-brands fa-css3-alt"></i>CSS</p>
+        <p class="col"><i class="fa-brands fa-docker"></i>Docker</p>
+        <p class="col"><i class="fa-brands fa-java"></i>Java</p>
+        <p class="col"><i class="fa-brands fa-js"></i>JavaScript</p>
+        <p class="col"><i class="fa-brands fa-github"></i>GitHub</p>
+        </div>
+        <div class="row">
+        <p class="col"><i class="fa-brands fa-react"></i>React</p>
+        <p class="col"><i class="fa-brands fa-php"></i>PHP</p>
+        <p class="col"><i class="fa-solid fa-database"></i>SQL</p>
+        <p class="col"> <img src="img/csharp.svg" alt="">C#</p>
+        <p class="col"> <img src="img/dotnet-logo.png" alt="">.NET</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
   <!-- Personer -->
   <div class="row gx-0 justify-content-evenly" id="gruppemedlemmer">
@@ -93,7 +161,7 @@
                 <a href="https://www.linkedin.com/in/erlendlotsberg/"><i class="bi-linkedin linkedInBtn"></i></a>
                 Erlend Lotsberg
               </h4>
-              <p class="card-text">Mine hovedinteresser innenfor IT inkluderer utvikling, database, og data/analyse.
+              <p class="card-text">Mine hovedinteresser innenfor IT inkluderer utvikling, databaser, skyløsninger og data/analyse.
                 Jeg er kreativ, god til å løse problemer, allsidig, og lærer raskt. Jeg ønsker å dyrke denne
                 allsidigheten, og mitt mål er å bli full stack- eller back end-utvikler, men kanskje også med en
                 dreining
@@ -140,7 +208,7 @@
               </h4>
               <p class="card-text">Jeg fascinerer meg over læren om hvordan datamaskiner fungerer og hvordan de kan
                 programmeres. Teknologi inspirerer meg til utvikling og jeg brenner for å skape nye løsninger. Jeg har
-                erfaring med systemutvikling fra Norkart AS i både front end og back end.</p>
+                erfaring med systemutvikling fra Norkart AS i både front- og backend.</p>
             </div>
           </div>
         </div>
@@ -171,12 +239,39 @@
     </div>
   </div>
 
-
-
+ 
+  <div class="px-4 pt-3 my-3 text-center">
+    <h2 id="prosjekter" class="fw-bold">Prosjekter</h2>
+    </div>
+    <div class="col-lg-10 mx-auto">
+      <div class="col-lg-6 py-3">
+        <div class="card mx-auto border-0 mb-2" style="max-width: 1040px;">
+          <div class="row g-0">
+            <div class="projectImg col-md-4 align-self-center" padding: 1rem>
+              <img src="img/norskehavner.png" class="img-fluid p-10 rounded" alt="project picture">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Sensorteknologi i Norske Havner
+                </h4>
+                <p class="card-text">Prosjektet <a href="https://sensorteknologi-i-havn.github.io/">Sensorteknologi i Norske Havner</a> 
+                  startet som et tjenestedesign prosjekt på UiA og
+                  ble videreutviklet av to av gruppemedlemmene sammen med Norkart AS. Prosjektet gikk ut på kartlegging av brukerbehov
+                  i forhold til sensorteknologi i norske havner. Videre i prosjektet utviklet
+                  to av gruppemedlemmene en nettside for å presentere funnene i prosjektet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
 
   <div class="container justify-content-center">
     <div class="row px-4 py-3 my-3 text-center">
-      <h1 id="mem" class="display-5 fw-bold">Mem</h1>
+      <h1 id="mem" class="fw-bold">Mem</h1>
       <div class="row mx-auto justify-content-center">
         <img src="img/haraldomdal.png" alt="mem om EDB" style="max-width: 500px;">
       </div>
@@ -184,8 +279,10 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/92cb20bec9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

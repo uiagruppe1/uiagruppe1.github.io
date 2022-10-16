@@ -75,9 +75,17 @@ html { scroll-padding-top: 76px; }
     font-size: 30px;
 }
 
-/* card */
-.profileImg {
-    padding-left: 200px;
+/* Projects */
+.project-title {
+    margin-bottom: '15em';
+}
+
+.projectPort-title{
+    text-align: left;
+}
+
+.projectPort, .projectSmartcity, .projectAMV {
+    text-align: left;
 }
 
 /* contact */

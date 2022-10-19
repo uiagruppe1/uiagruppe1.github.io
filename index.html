@@ -70,7 +70,8 @@
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="img/HTML5.png" alt="">HTML</button>
             <button class="nav-link" id="nav-css-tab" data-bs-toggle="tab" data-bs-target="#nav-css" type="button" role="tab" aria-controls="nav-css" aria-selected="false"><img src="img/CSS3.png" alt="">CSS</button>
-            <button class="nav-link" id="nav-docker-tab" data-bs-toggle="tab" data-bs-target="#nav-docker" type="button" role="tab" aria-controls="nav-docker" aria-selected="false"><img src="img/Moby-logo.png" alt="">Docker</button>
+            <button class="nav-link" id="nav-azure-tab" data-bs-toggle="tab" data-bs-target="#nav-azure" type="button" role="tab" aria-controls="nav-azure" aria-selected="false"><img src="img/azurelogo.jpg" alt="">Azure</button>
+            <button class="nav-link" id="nav-docker-tab" data-bs-toggle="tab" data-bs-target="#nav-docker" type="button" role="tab" aria-controls="nav-docker" aria-selected="false"><img src="img/Moby-logo.jpg" alt="">Docker</button>
             <button class="nav-link" id="nav-kubernetes-tab" data-bs-toggle="tab" data-bs-target="#nav-kubernetes" type="button" role="tab" aria-controls="nav-kubernetes" aria-selected="false"><img src="img/Kubernetes.png" alt="">kubernetes</button>
             <button class="nav-link" id="nav-java-tab" data-bs-toggle="tab" data-bs-target="#nav-java" type="button" role="tab" aria-controls="nav-java" aria-selected="false"><img src="img/java.png" alt="">Java</button>
             <button class="nav-link" id="nav-dotnet-tab" data-bs-toggle="tab" data-bs-target="#nav-dotnet" type="button" role="tab" aria-controls="nav-dotnet" aria-selected="false"><img src="img/dotnet-logo.png" alt="">.NET</button>
@@ -86,6 +87,7 @@
         <div class="tab-content" id="nav-tabContent">
           <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">HTML5 har blitt benyttet av alle i gruppa gjennom flere webprosjekter, både gjennom UiA og diverse private prosjekter.</div>
           <div class="tab-pane fade" id="nav-css" role="tabpanel" aria-labelledby="nav-css-tab" tabindex="0">CSS har blitt brukt aktivt for å style diverse webprosjekter vi har gjennomført, blant annet denne nettsiden.</div>
+          <div class="tab-pane fade" id="nav-azure" role="tabpanel" aria-labelledby="nav-azure-tab" tabindex="0">Azure og Azure DevOps har blitt brukt til å pilotere en IoT applikasjon med sensordata.</div>
           <div class="tab-pane fade" id="nav-docker" role="tabpanel" aria-labelledby="nav-docker-tab" tabindex="0">Webapplikasjonen vi utviklet 2. året kjørte i en Docker container, som gjorde det enkelt for oss å kjøre webapplikasjonen på tvers av operativsystemer, avhengigheter og miljø.</div>
           <div class="tab-pane fade" id="nav-kubernetes" role="tabpanel" aria-labelledby="nav-kubernetes-tab" tabindex="0">Kubernetes blir brukt som container i en av studentenes praksisprosjekt.</div>
           <div class="tab-pane fade" id="nav-java" role="tabpanel" aria-labelledby="nav-java-tab" tabindex="0">Java var introduksjonen vår til koding førsteåret, samt at Java og Java Servlets ble brukt for å utvikle en webapplikasjon 2. året</div>
@@ -267,13 +269,30 @@
         </div>
       </div>
     </div>
- 
-
-  <div class="container justify-content-center">
-    <div class="row px-4 py-3 my-3 text-center">
-      <h2 id="projects" class="fw-bold">Prosjekter</h2>
+    
+    <div class="col-lg-10 mx-auto">
+      <div class="col-lg-6 py-3">
+        <div class="card mx-auto border-0 mb-2" style="max-width: 1040px;">
+          <div class="row g-0">
+            <div class="projectImg col-md-4 align-self-center" padding: 1rem>
+              <img src="img/AMV-hjem.png" class="img-fluid p-10 rounded" alt="project picture">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Sensorteknologi i Norske Havner
+                </h4>
+          <p class="projectAMV card-text">Prosjektet <a href="">"AMV"</a> 
+           For AMV utviklet vi et digitalt utlånssystem som administrerer og organiserer verktøy-utleie til ansatte. 
+           Dette innebærer at de ansatte finner lettere frem til verktøy som er tilgjengelig for leie, samt sjekke 
+           tilgjengelighet for ønsket verktøy. Admins vil i dette tilfelle få oversikt over hvem som har 
+           lånt hvilket verktøy, samt beløpet de ulike brukerne skylder gjennom leietjenesten.
+        </div>
+      </div>
     </div>
-  </div>
+    </div>
+    </div>
+    </div>
 
   <div class="container justify-content-center">
     <div class="contactUs px-4 py-3 my-3">
@@ -285,6 +304,7 @@
       </div>
     </div>
   </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

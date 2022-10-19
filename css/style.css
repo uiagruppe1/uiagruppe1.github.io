@@ -7,6 +7,11 @@ html { scroll-padding-top: 76px; }
     border-radius: 5px;
 }
 
+.kontaktLink:hover {
+    background-color: #055c8b;
+    border-radius: 5px;
+}
+
 .kontaktLink a {
     color: white!important;
 }
@@ -75,39 +80,41 @@ html { scroll-padding-top: 76px; }
     font-size: 30px;
 }
 
+.projectImg {
+    border: 1px black solid;
+}
+
 /* contact */
 
 .contactUs {
     text-align: center;
 }
 
-.contactInfo {
-    font-style: italic;
+.btn-primary-con {
+    background-color: #0077B5!important;
+    border-radius: 5px!important;
+}
+
+.btn-primary-con:hover {
+    background-color: #055c8b!important;
+    border-radius: 5px!important;
+}
+
+.btn-primary-con a {
+    color: white!important;
+}
+
+.btn-primary-con a:hover {
+    color: rgb(231, 231, 231)!important;
 }
 
 /* footer */
 .footer {
-    text-align: right;
+    text-align: center;
     font-style: italic;
     color: #FFFFFF;
     background-color: #252525;
 }
-
-a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
 
 
 @media (max-width: 767.98px) { 
@@ -118,6 +125,10 @@ a:link {
 
     .gruppeNavbar img {
         max-height: 40px;
+    }
+
+    .projectImg {
+        margin-bottom: 10px;
     }
 
     .profileImg {
